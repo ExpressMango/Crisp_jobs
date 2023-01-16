@@ -1,0 +1,19 @@
+import 'package:crisp_jobs/functions/Cardwidget(Horizontal).dart';
+import 'package:crisp_jobs/functions/Cardwidget(Vertical).dart';
+import 'package:crisp_jobs/functions/FilterFunction.dart';
+import 'package:crisp_jobs/pages/Settings.dart';
+import 'package:flutter/material.dart';
+import 'package:crisp_jobs/functions.dart';
+import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+
+
+class HCIC extends StatelessWidget {
+  const HCIC({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}

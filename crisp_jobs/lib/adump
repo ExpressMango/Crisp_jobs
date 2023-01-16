@@ -1,0 +1,53 @@
+ Container(
+    child: Row(
+      children: [
+        Image.asset('$imagespath'),
+        SizedBox(
+          width: 20,
+        ),
+        Padding(
+          padding: const EdgeInsets.only(top: 1),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Text(
+                    '$text1',
+                    style: GoogleFonts.poppins(
+                        fontWeight: FontWeight.w400,
+                        fontSize: 14,
+                        color: Colors.black.withOpacity(0.4)),
+                  ),
+                  SizedBox(width: 170),
+                  Text('❤️')
+                ],
+              ),
+              Text(
+                '$text2',
+                style: GoogleFonts.poppins(
+                    fontWeight: FontWeight.w600,
+                    fontSize: 20,
+                    color: Colors.black.withOpacity(1)),
+              ),
+              Text(
+                '$text3',
+                style: GoogleFonts.poppins(
+                    fontWeight: FontWeight.w400,
+                    fontSize: 13,
+                    color: Colors.black.withOpacity(0.5)),
+              ),
+            ],
+          ),
+        )
+      ],
+    ),
+  );
+
+
+  Widget VcardHome({
+  final String? text1,
+  final String? text2,
+  final String? text3,
+  final String? imagespath,
+}) 
